@@ -1,0 +1,29 @@
+{
+  "name": "test-ava",
+  "version": "1.0.0",
+  "description": "JavaScript test ava",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/jinjuanjuan/test-ava.git"
+  },
+  "keywords": [
+    "test-ava",
+    "es6"
+  ],
+  "engines": {
+    "node": ">=0.10.0"
+  },
+  "author": "jinjuanjuan",
+  "ava": {
+    "files": [
+      "test/test-ava.js"
+    ]
+  },
+  "scripts": {
+    "test": "ava"
+  },
+  "devDependencies": {
+    "ava": "^0.15.2"
+  }
+}
